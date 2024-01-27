@@ -1,0 +1,33 @@
+@use "./typography";
+@use "./media-queries" as *;
+@use "./variables" as *;
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  font-family: "Space Grotesk";
+}
+
+// body {
+//   margin: 1.6rem;
+
+//   @include tablet {
+//     margin: 3rem;
+//   }
+
+//   @include desktop {
+//     margin: 4.5rem 3rem;
+//   }
+// }

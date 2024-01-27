@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../../assets/fonts/static/SpaceGrotesk-Medium.ttf")
+      format("truetype"),
+    url("../../assets/fonts/static/SpaceGrotesk-Medium.otf") format("opentype"),
+    url("../../assets/fonts/static/SpaceGrotesk-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../../assets/fonts/static/SpaceGrotesk-Bold.ttf") format("truetype"),
+    url("../../assets/fonts/static/SpaceGrotesk-Bold.otf") format("opentype"),
+    url("../../assets/fonts/static/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-weight: 700;
+}

@@ -1,0 +1,16 @@
+@use "../../styles/partials/media-queries" as *;
+@use "../../styles/partials/global";
+@use "../../styles/partials/resets";
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  &__photo {
+    width: 30rem;
+    &--dark {
+      filter: grayscale(1);
+      width: 30rem;
+    }
+  }
+}

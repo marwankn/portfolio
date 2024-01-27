@@ -1,0 +1,35 @@
+@use "../../styles/partials/media-queries" as *;
+@use "../../styles/partials/global";
+@use "../../styles/partials/resets";
+
+.header {
+  padding-top: 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__social-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  &__mode {
+    cursor: pointer;
+  }
+
+  &__social-item {
+    &--light {
+      path {
+        fill: #000000;
+      }
+    }
+  }
+}
