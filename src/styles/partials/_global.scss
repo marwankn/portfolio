@@ -8,18 +8,33 @@
     color: $text-lightMode-color;
   }
 
-  &--dark{
+  &--dark {
     background-color: $main-dark-color;
-    color:$text-darkMode-color;
+    color: $text-darkMode-color;
   }
 }
 
 h1 {
-  font-size: 8.8rem;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 8.8rem;
-  letter-spacing: -0.25rem;
+  line-height: 4rem;
+  letter-spacing: -0.1136rem;
+  z-index: 1;
+  @include tablet {
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.2rem; /* 100% */
+    letter-spacing: -0.2045rem;
+  }
+  @include desktop {
+    font-size: 8.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 8.8rem;
+    letter-spacing: -0.25rem;
+  }
 }
 
 h2 {
@@ -42,4 +57,20 @@ p {
   font-style: normal;
   font-weight: 500;
   line-height: 2.8rem;
+}
+
+.button {
+  color: inherit;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6rem;
+  letter-spacing: 0.2286rem;
+  text-transform: uppercase;
+  text-underline-offset: 1rem;
+  text-decoration-color: $interactive-color;
+
+  &:hover {
+    color: $interactive-color;
+  }
 }

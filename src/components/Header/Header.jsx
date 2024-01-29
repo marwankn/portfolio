@@ -9,7 +9,7 @@ function Header({ colorMode, setColorMode }) {
   return (
     <>
       <header className="header">
-        <h1 className="header__title">Marwan Nofal</h1>
+        <h3 className="header__title">Marwan Nofal</h3>
         <div className="header__social-links">
           {socialList.map((item, i) => {
             return (

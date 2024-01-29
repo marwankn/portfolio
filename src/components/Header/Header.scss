@@ -13,11 +13,13 @@
   @include tablet {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__social-links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 4rem;
   }
 

@@ -2,15 +2,38 @@ import React from "react";
 import "./About.scss";
 import photo from "../../assets/images/marwan-bg-removed-adjusted.webp";
 import rings from "../../assets/images/pattern-rings.svg";
+import circle from "../../assets/images/pattern-circle.svg";
+
 import { ReactSVG } from "react-svg";
 
 function About({ colorMode }) {
   return (
     <>
-      <ReactSVG src={rings} className="about__rings" />
+      <ReactSVG
+        src={rings}
+        className={
+          colorMode === "dark" ? "about__rings" : "about__rings--light"
+        }
+      />
+      <ReactSVG
+        src={circle}
+        className={
+          colorMode === "dark" ? "about__circle" : "about__circle--light"
+        }
+      />
+
       <section className="about">
         <div className="about__text">
-          <h2>Nice to meet you! I'm <span>Marwan Nofal</span>.</h2>
+          <h1>
+            Nice to meet you! I'm <span>Marwan Nofal</span>.
+          </h1>
+          <p>
+            Based in Canada, I’m a Full Stack developer passionate about
+            building accessible web apps that users love.
+          </p>
+          <a href="mailto:marwankn@gmail.com.com" className="about__button">
+            Contact Me
+          </a>
         </div>
         <img
           src={photo}
