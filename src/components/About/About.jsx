@@ -10,7 +10,7 @@ function About({ colorMode }) {
       <ReactSVG src={rings} className="about__rings" />
       <section className="about">
         <div className="about__text">
-          <h2>Nice to meet you! I'm Marwan Nofal</h2>
+          <h2>Nice to meet you! I'm <span>Marwan Nofal</span>.</h2>
         </div>
         <img
           src={photo}
