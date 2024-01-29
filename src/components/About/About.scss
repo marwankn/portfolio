@@ -4,13 +4,55 @@
 
 .about {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
-  margin-top: 2rem;
+  align-items: center;
+
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    @include tablet {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 25rem;
+    }
+  }
+
   &__photo {
     width: 30rem;
+    @include tablet {
+      width: 50rem;
+    }
     &--dark {
       filter: grayscale(1);
       width: 30rem;
+      @include tablet {
+        width: 50rem;
+      }
+    }
+  }
+
+  &__rings {
+    position: absolute;
+    width: 53rem;
+    height: 12.9rem;
+    flex-shrink: 0;
+    margin-left: -34rem;
+    z-index: -1;
+
+    @include tablet {
+      margin-left: -27rem;
+      left: 0;
+    }
+    @include desktop {
+      margin-left: -10rem;
     }
   }
 }

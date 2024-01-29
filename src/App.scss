@@ -1,26 +1,2 @@
 @use "./styles/partials/media-queries" as *;
 @use "./styles/partials/global";
-
-.rings {
-  position: absolute;
-  width: 53rem;
-  height: 12.9rem;
-  flex-shrink: 0;
-  margin-left: -34rem;
-  top: 12.4rem;
-
-  @include tablet {
-    margin-left: -27rem;
-    top: 8.6rem;
-  }
-  @include desktop {
-    margin-left: -10rem;
-    top: 13.3rem;
-  }
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
