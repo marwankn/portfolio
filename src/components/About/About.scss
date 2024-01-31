@@ -41,11 +41,11 @@
   &__photo {
     width: 30rem;
     z-index: 1;
-    animation: float 6s ease-in-out infinite;
     @include tablet {
       width: 50rem;
     }
     &--dark {
+      @extend .about__photo;
       filter: grayscale(1);
       width: 30rem;
       @include tablet {

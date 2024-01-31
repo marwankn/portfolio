@@ -1,0 +1,65 @@
+{
+  "social": [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/marwankn",
+      "icon": "../../../public/icons/social/icon-linkedin.svg"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://www.github.com/marwankn",
+      "icon": "../../../public/icons/social/icon-github.svg"
+    },
+    {
+      "name": "Resume",
+      "link": "https://www.github.com/marwankn",
+      "icon": "../../../public/icons/social/icon-resume.svg"
+    }
+  ],
+  "experience": [
+    {
+      "name": "HTML",
+      "logo": "../../../public/icons/experience/html-5.svg"
+    },
+    {
+      "name": "CSS",
+      "logo": "../../../public/icons/experience/css-3.svg"
+    },
+    {
+      "name": "Javascript",
+      "logo": "../../../public/icons/experience/javascript.svg"
+    },
+    {
+      "name": "React",
+      "logo": "../../../public/icons/experience/react.svg"
+    },
+    {
+      "name": "Node.js",
+      "logo": "../../../public/icons/experience/nodejs-icon.svg"
+    },
+    {
+      "name": "MySQL",
+      "logo": "../../../public/icons/experience/mysql.svg"
+    },
+    {
+      "name": "Sass",
+      "logo": "../../../public/icons/experience/sass.svg"
+    },
+    {
+      "name": "Git",
+      "logo": "../../../public/icons/experience/git-icon.svg"
+    },
+    {
+      "name": "Python",
+      "logo": "../../../public/icons/experience/python.svg"
+    },
+    {
+      "name": "Typescript",
+      "logo": "../../../public/icons/experience/typescript-icon.svg"
+    },
+    {
+      "name": "Figma",
+      "logo": "../../../public/icons/experience/figma.svg"
+    }
+  ]
+}

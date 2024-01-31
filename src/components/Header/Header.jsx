@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import socialList from "../../assets/data/social.json";
+import socialList from "../../assets/data/data.json";
 import DarkMode from "../../assets/images/dark-mode.svg?react";
 import LightMode from "../../assets/images/light-mode.svg?react";
 import { ReactSVG } from "react-svg";
@@ -11,7 +11,7 @@ function Header({ colorMode, setColorMode }) {
       <header className="header">
         <h3 className="header__title">Marwan Nofal</h3>
         <div className="header__social-links">
-          {socialList.map((item, i) => {
+          {socialList["social"].map((item, i) => {
             return (
               <a href={item.link} key={i} target="_blank">
                 <ReactSVG

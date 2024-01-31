@@ -5,7 +5,8 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  overflow: hidden;
+  overflow-x: hidden;
+  user-select: none;
 }
 
 *,

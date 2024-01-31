@@ -9,19 +9,6 @@ import { ReactSVG } from "react-svg";
 function About({ colorMode }) {
   return (
     <>
-      <ReactSVG
-        src={rings}
-        className={
-          colorMode === "dark" ? "about__rings" : "about__rings--light"
-        }
-      />
-      <ReactSVG
-        src={circle}
-        className={
-          colorMode === "dark" ? "about__circle" : "about__circle--light"
-        }
-      />
-
       <section className="about">
         <div className="about__text">
           <h1>
@@ -40,6 +27,18 @@ function About({ colorMode }) {
           alt=""
           className={
             colorMode === "dark" ? "about__photo--dark" : "about__photo"
+          }
+        />
+        <ReactSVG
+          src={rings}
+          className={
+            colorMode === "dark" ? "about__rings" : "about__rings--light"
+          }
+        />
+        <ReactSVG
+          src={circle}
+          className={
+            colorMode === "dark" ? "about__circle" : "about__circle--light"
           }
         />
       </section>

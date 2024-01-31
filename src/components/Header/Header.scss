@@ -1,6 +1,7 @@
 @use "../../styles/partials/media-queries" as *;
 @use "../../styles/partials/global";
 @use "../../styles/partials/resets";
+@use "../../styles/partials/variables" as *;
 
 .header {
   padding-top: 2rem;
