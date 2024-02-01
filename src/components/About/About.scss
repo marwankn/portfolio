@@ -62,6 +62,7 @@
 
   &__button {
     @extend .button;
+    width: fit-content;
   }
 
   &__rings {
