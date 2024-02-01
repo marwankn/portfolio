@@ -1,0 +1,36 @@
+@use "../../styles/partials/media-queries" as *;
+@use "../../styles/partials/global";
+@use "../../styles/partials/resets";
+@use "../../styles/partials/variables" as *;
+
+.projects {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include tablet {
+      justify-content: space-evenly;
+    }
+
+    @include desktop {
+      gap: 3rem;
+      justify-content: left;
+    }
+  }
+
+  &__button {
+    @extend .button;
+  }
+}

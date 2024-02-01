@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./About.scss";
 import photo from "../../assets/images/marwan-bg-removed-adjusted.webp";
 import rings from "../../assets/images/pattern-rings.svg";
@@ -14,10 +14,7 @@ function About({ colorMode }) {
           <h1>
             Nice to meet you! I'm <span>Marwan Nofal</span>.
           </h1>
-          <p>
-            Based in Canada, I’m a Full Stack developer passionate about
-            building accessible web apps that users love.
-          </p>
+          <p>I’m a Full Stack developer based in Toronto, Canada 🍁</p>
           <a href="mailto:marwankn@gmail.com.com" className="about__button">
             Contact Me
           </a>

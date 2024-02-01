@@ -1,0 +1,99 @@
+@use "../../styles/partials/media-queries" as *;
+@use "../../styles/partials/global";
+@use "../../styles/partials/resets";
+@use "../../styles/partials/variables" as *;
+
+.project-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 4rem 0;
+
+  @include tablet {
+    max-width: 34.5rem;
+  }
+
+  @include desktop {
+    max-width: 44rem;
+  }
+
+  &__overlay {
+    position: relative;
+    @include desktop {
+      &:hover {
+        &:before {
+          opacity: 1;
+          z-index: 1;
+        }
+        .project-card__cta {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+
+      transition: opacity 0.3s ease;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .project-card__cta {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      color: $text-darkMode-color;
+    }
+  }
+
+  &__cta {
+    &--mobile {
+      display: flex;
+      justify-content: left;
+      gap: 3.2rem;
+
+      @include desktop {
+        display: none;
+      }
+    }
+  }
+  &__link {
+    @extend .button;
+  }
+
+  &__tech {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    &-item {
+      color: $secondary-text-color;
+
+      &--light {
+        color: rgba($color: $secondary-color, $alpha: 0.8);
+      }
+    }
+  }
+}

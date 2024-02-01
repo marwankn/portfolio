@@ -3,6 +3,7 @@ import "./App.scss";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const [colorMode, setColorMode] = useState(
@@ -26,6 +27,7 @@ function App() {
       <Header colorMode={colorMode} setColorMode={setColorMode} />
       <About colorMode={colorMode} />
       <Experience colorMode={colorMode} />
+      <Projects colorMode={colorMode} />
     </>
   );
 }

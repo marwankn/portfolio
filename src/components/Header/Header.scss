@@ -26,9 +26,21 @@
 
   &__mode {
     cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   &__social-item {
+    &--dark,
+    &--light {
+      &:hover {
+        transition: transform 0.3s ease;
+        transform: scale(1.1);
+      }
+    }
     &--light {
       path {
         fill: #000000;
