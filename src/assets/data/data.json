@@ -58,7 +58,7 @@
   "projects": [
     {
       "name": "BloodLink",
-      "image": "/src/assets/images/projects/bloodlink.webp",
+      "image": "../../assets/images/projects/bloodlink.webp",
       "url": "https://6549ab04af733b0008fa3683--sensational-rabanadas-f2d047.netlify.app/",
       "githubLink": "https://github.com/marwankn/BloodLink-Client/tree/main",
       "tech": ["React", "Sass", "NodeJs", "Express", "MySQL", "GoogleMaps API"]
