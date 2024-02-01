@@ -22,7 +22,7 @@ function Experience({ colorMode }) {
               <>
                 <ReactSVG
                   key={i}
-                  src={item.logo}
+                  src={"/public/experience/" + item.logo}
                   alt={item.name}
                   className={
                     colorMode === "dark"
