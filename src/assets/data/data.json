@@ -3,62 +3,62 @@
     {
       "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/marwankn",
-      "icon": "public/icons/social/icon-linkedin.svg"
+      "icon": "icon-linkedin.svg"
     },
     {
       "name": "GitHub",
       "link": "https://www.github.com/marwankn",
-      "icon": "public/icons/social/icon-github.svg"
+      "icon": "icon-github.svg"
     },
     {
       "name": "Resume",
       "link": "https://drive.google.com/file/d/1a_UxFxa3A9H5iiYtNzA0mRTdbEG8uqZw/view?usp=sharing",
-      "icon": "public/icons/social/icon-resume.svg"
+      "icon": "icon-resume.svg"
     }
   ],
   "experience": [
     {
       "name": "HTML",
-      "logo": "public/icons/experience/html-5.svg"
+      "logo": "html-5.svg"
     },
     {
       "name": "CSS",
-      "logo": "public/icons/experience/css-3.svg"
+      "logo": "css-3.svg"
     },
     {
       "name": "Javascript",
-      "logo": "public/icons/experience/javascript.svg"
+      "logo": "javascript.svg"
     },
     {
       "name": "React",
-      "logo": "public/icons/experience/react.svg"
+      "logo": "react.svg"
     },
     {
       "name": "Node.js",
-      "logo": "public/icons/experience/nodejs-icon.svg"
+      "logo": "nodejs-icon.svg"
     },
     {
       "name": "MySQL",
-      "logo": "public/icons/experience/mysql.svg"
+      "logo": "mysql.svg"
     },
     {
       "name": "Sass",
-      "logo": "public/icons/experience/sass.svg"
+      "logo": "sass.svg"
     },
     {
       "name": "Git",
-      "logo": "public/icons/experience/git-icon.svg"
+      "logo": "git-icon.svg"
     },
 
     {
       "name": "Figma",
-      "logo": "public/icons/experience/figma.svg"
+      "logo": "figma.svg"
     }
   ],
   "projects": [
     {
       "name": "BloodLink",
-      "image": "../images/projects/bloodlink.webp",
+      "image": "bloodlink.webp",
       "url": "https://6549ab04af733b0008fa3683--sensational-rabanadas-f2d047.netlify.app/",
       "githubLink": "https://github.com/marwankn/BloodLink-Client/tree/main",
       "tech": ["React", "Sass", "NodeJs", "Express", "MySQL", "GoogleMaps API"]

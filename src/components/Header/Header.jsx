@@ -15,7 +15,7 @@ function Header({ colorMode, setColorMode }) {
             return (
               <a href={item.link} key={i} target="_blank">
                 <ReactSVG
-                  src={item.icon}
+                  src={"../../assets/images/icons/social/" + item.icon}
                   alt={item.name}
                   className={
                     colorMode === "dark"
