@@ -3,62 +3,62 @@
     {
       "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/marwankn",
-      "icon": "icon-linkedin.svg"
+      "icon": "/assets/images/icons/social/icon-linkedin.svg"
     },
     {
       "name": "GitHub",
       "link": "https://www.github.com/marwankn",
-      "icon": "icon-github.svg"
+      "icon": "/assets/images/icons/social/icon-github.svg"
     },
     {
       "name": "Resume",
       "link": "https://drive.google.com/file/d/1a_UxFxa3A9H5iiYtNzA0mRTdbEG8uqZw/view?usp=sharing",
-      "icon": "icon-resume.svg"
+      "icon": "/assets/images/icons/social/icon-resume.svg"
     }
   ],
   "experience": [
     {
       "name": "HTML",
-      "logo": "/src/assets/images/icons/experience/html-5.svg"
+      "logo": "/assets/images/icons/experience/html-5.svg"
     },
     {
       "name": "CSS",
-      "logo": "/src/assets/images/icons/experience/css-3.svg"
+      "logo": "/assets/images/icons/experience/css-3.svg"
     },
     {
       "name": "Javascript",
-      "logo": "/src/assets/images/icons/experience/javascript.svg"
+      "logo": "/assets/images/icons/experience/javascript.svg"
     },
     {
       "name": "React",
-      "logo": "/src/assets/images/icons/experience/react.svg"
+      "logo": "/assets/images/icons/experience/react.svg"
     },
     {
       "name": "Node.js",
-      "logo": "/src/assets/images/icons/experience/nodejs-icon.svg"
+      "logo": "/assets/images/icons/experience/nodejs-icon.svg"
     },
     {
       "name": "MySQL",
-      "logo": "/src/assets/images/icons/experience/mysql.svg"
+      "logo": "/assets/images/icons/experience/mysql.svg"
     },
     {
       "name": "Sass",
-      "logo": "/src/assets/images/icons/experience/sass.svg"
+      "logo": "/assets/images/icons/experience/sass.svg"
     },
     {
       "name": "Git",
-      "logo": "/src/assets/images/icons/experience/git-icon.svg"
+      "logo": "/assets/images/icons/experience/git-icon.svg"
     },
 
     {
       "name": "Figma",
-      "logo": "/src/assets/images/icons/experience/figma.svg"
+      "logo": "/assets/images/icons/experience/figma.svg"
     }
   ],
   "projects": [
     {
       "name": "BloodLink",
-      "image": "./src/assets/images/projects/bloodlink.webp",
+      "image": "/assets/images/projects/bloodlink.webp",
       "url": "https://6549ab04af733b0008fa3683--sensational-rabanadas-f2d047.netlify.app/",
       "githubLink": "https://github.com/marwankn/BloodLink-Client/tree/main",
       "tech": ["React", "Sass", "NodeJs", "Express", "MySQL", "GoogleMaps API"]

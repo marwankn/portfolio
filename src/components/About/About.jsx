@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "./About.scss";
-import photo from "../../assets/images/marwan-bg-removed-adjusted.webp";
-import rings from "../../assets/images/pattern-rings.svg";
-import circle from "../../assets/images/pattern-circle.svg";
+import photo from "/public/assets/images/marwan-bg-removed-adjusted.webp";
+import rings from "/public/assets/images/pattern-rings.svg";
+import circle from "/public/assets/images/pattern-circle.svg";
 
 import { ReactSVG } from "react-svg";
 
