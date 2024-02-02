@@ -1,12 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
-import vitePluginRequire from "vite-plugin-require";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    vitePluginRequire.default(),
     svgr({
       svgrOptions: {
         // svgr options
@@ -15,5 +14,8 @@ export default defineConfig({
   ],
   optimizeDeps: {
     include: ["react-svg"],
+  },
+  build: {
+    assetsDir: "./src/assets",
   },
 });
