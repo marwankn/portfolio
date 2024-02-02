@@ -20,7 +20,6 @@ function Experience({ colorMode }) {
       <section className="experience">
         <div className="experience__icon-list">
           {experienceList["experience"].map((item, i) => {
-            console.log(img + item.logo);
             return (
               <>
                 <ReactSVG
