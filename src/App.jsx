@@ -11,16 +11,6 @@ function App() {
       ? "dark"
       : "light"
   );
-  const [isLoading, setIsLoading] = React.useState(true);
-
-  const handleLoading = () => {
-    setIsLoading(false);
-  };
-
-  useEffect(() => {
-    window.addEventListener("load", handleLoading);
-    return () => window.removeEventListener("load", handleLoading);
-  }, []);
 
   useEffect(() => {
     if (colorMode === "dark") {
@@ -32,15 +22,13 @@ function App() {
     }
   }, [colorMode]);
 
-  return !isLoading ? (
+  return (
     <>
       <Header colorMode={colorMode} setColorMode={setColorMode} />
       <About colorMode={colorMode} />
       <Experience colorMode={colorMode} />
       <Projects colorMode={colorMode} />
     </>
-  ) : (
-    <div>Loading...</div>
   );
 }
 
