@@ -19,40 +19,40 @@
   "experience": [
     {
       "name": "HTML",
-      "logo": "html-5.svg"
+      "logo": "/src/assets/images/icons/experience/html-5.svg"
     },
     {
       "name": "CSS",
-      "logo": "css-3.svg"
+      "logo": "/src/assets/images/icons/experience/css-3.svg"
     },
     {
       "name": "Javascript",
-      "logo": "javascript.svg"
+      "logo": "/src/assets/images/icons/experience/javascript.svg"
     },
     {
       "name": "React",
-      "logo": "react.svg"
+      "logo": "/src/assets/images/icons/experience/react.svg"
     },
     {
       "name": "Node.js",
-      "logo": "nodejs-icon.svg"
+      "logo": "/src/assets/images/icons/experience/nodejs-icon.svg"
     },
     {
       "name": "MySQL",
-      "logo": "mysql.svg"
+      "logo": "/src/assets/images/icons/experience/mysql.svg"
     },
     {
       "name": "Sass",
-      "logo": "sass.svg"
+      "logo": "/src/assets/images/icons/experience/sass.svg"
     },
     {
       "name": "Git",
-      "logo": "git-icon.svg"
+      "logo": "/src/assets/images/icons/experience/git-icon.svg"
     },
 
     {
       "name": "Figma",
-      "logo": "figma.svg"
+      "logo": "/src/assets/images/icons/experience/figma.svg"
     }
   ],
   "projects": [
