@@ -31,13 +31,14 @@ function ProjectCard({ project, colorMode }) {
 
         <h3>{project.name}</h3>
         <div className="project-card__tech">
-          {project.tech.map((tech) => (
+          {project.tech.map((tech, i) => (
             <p
               className={
                 colorMode === "dark"
                   ? "project-card__tech-item"
                   : "project-card__tech-item--light"
               }
+              key={i}
             >
               {tech}
             </p>

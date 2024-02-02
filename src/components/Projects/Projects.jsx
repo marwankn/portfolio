@@ -14,8 +14,8 @@ function Projects({ colorMode }) {
           </a>
         </div>
         <div className="projects__cards">
-          {projectsList.projects.map((project) => (
-            <ProjectCard project={project} colorMode={colorMode} />
+          {projectsList.projects.map((project, i) => (
+            <ProjectCard project={project} colorMode={colorMode} key={i} />
           ))}
         </div>
       </section>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.scss";
 import socialList from "../../assets/data/data.json";
-import DarkMode from "../../assets/images/dark-mode.svg?react";
-import LightMode from "../../assets/images/light-mode.svg?react";
+import DarkMode from "/public/assets/images/dark-mode.svg?react";
+import LightMode from "/public/assets/images/light-mode.svg?react";
 import { ReactSVG } from "react-svg";
 
 function Header({ colorMode, setColorMode }) {
