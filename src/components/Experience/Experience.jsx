@@ -5,6 +5,8 @@ import { ReactSVG } from "react-svg";
 import "./Experience.scss";
 
 function Experience({ colorMode }) {
+  const iconPath = "/src/assets/images/icons/experience/";
+
   return (
     <>
       <ReactSVG
@@ -18,11 +20,12 @@ function Experience({ colorMode }) {
       <section className="experience">
         <div className="experience__icon-list">
           {experienceList["experience"].map((item, i) => {
+            console.log(img + item.logo);
             return (
               <>
                 <ReactSVG
                   key={i}
-                  src={item.logo}
+                  src={iconPath + item.logo}
                   alt={item.name}
                   className={
                     colorMode === "dark"
