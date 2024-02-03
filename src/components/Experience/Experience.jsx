@@ -19,16 +19,33 @@ function Experience({ colorMode }) {
         <div className="experience__icon-list">
           {experienceList["experience"].map((item, i) => {
             return (
-              <ReactSVG
+              <div
                 key={i}
-                src={item.logo}
-                alt={item.name}
                 className={
                   colorMode === "dark"
-                    ? "experience__icon--dark"
-                    : "experience__icon--light"
+                    ? "experience__icon-container--dark"
+                    : "experience__icon-container--light"
                 }
-              />
+              >
+                <ReactSVG
+                  src={item.logo}
+                  alt={item.name}
+                  className={
+                    colorMode === "dark"
+                      ? "experience__icon"
+                      : "experience__icon"
+                  }
+                />
+                <p
+                  className={
+                    colorMode === "dark"
+                      ? "experience__icon-name"
+                      : "experience__icon-name--light"
+                  }
+                >
+                  {item.name}
+                </p>
+              </div>
             );
           })}
         </div>
