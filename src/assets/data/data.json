@@ -38,6 +38,10 @@
       "logo": "/assets/images/icons/experience/nodejs-icon.svg"
     },
     {
+      "name": "Express.js",
+      "logo": "/assets/images/icons/experience/express.svg"
+    },
+    {
       "name": "MySQL",
       "logo": "/assets/images/icons/experience/mysql.svg"
     },

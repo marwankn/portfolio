@@ -15,33 +15,50 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
+    z-index: 2;
   }
 
   &__icon {
-    padding: 2rem;
-    border-radius: 2rem;
+    &-container {
+      width: 12rem;
+      padding: 2rem;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      gap: 1rem;
 
-    @include desktop {
-      &:hover {
-        animation: float 1s ease-in-out infinite;
+      &--light {
+        @extend .experience__icon-container;
         border: 1px solid $interactive-color;
+      }
+      &--dark {
+        @extend .experience__icon-container;
+        border: 1px solid $text-darkMode-color;
+      }
+      @include desktop {
+        &:hover {
+          animation: float 1s ease-in-out infinite;
+          border: 1px solid $interactive-color;
+        }
       }
     }
 
+    &-name {
+      color: $secondary-text-color;
+
+      &--light {
+        color: rgba($color: $secondary-color, $alpha: 0.8);
+      }
+    }
     svg {
       width: 5rem;
       height: 5rem;
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-    &--light {
-      @extend .experience__icon;
-      border: 1px solid $interactive-color;
-    }
-    &--dark {
-      @extend .experience__icon;
-      border: 1px solid $text-darkMode-color;
     }
   }
 

@@ -9,7 +9,7 @@ function ProjectCard({ project, colorMode }) {
           <img
             src={project.image}
             alt="Project Screenshot"
-            className="project-card__image"
+            className="project-card__image  "
           />
           <div className="project-card__cta">
             <a
