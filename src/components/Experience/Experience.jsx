@@ -32,7 +32,10 @@ function Experience({ colorMode }) {
                   alt={item.name}
                   className={
                     colorMode === "dark"
-                      ? "experience__icon"
+                      ? `experience__icon ${item.name
+                          .split(".")
+                          .join("")
+                          .toLowerCase()}`
                       : "experience__icon"
                   }
                 />
