@@ -15,7 +15,7 @@ function About({ colorMode }) {
             Nice to meet you! I'm <span>Marwan Nofal</span>.
           </h1>
           <p>I’m a Full Stack developer based in Toronto, Canada 🍁</p>
-          <a href="mailto:marwankn@gmail.com.com" className="about__button">
+          <a href="mailto:marwankn@gmail.com" className="about__button">
             Contact Me
           </a>
         </div>
