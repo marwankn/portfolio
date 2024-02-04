@@ -9,7 +9,7 @@ function Projects({ colorMode }) {
       <section className="projects">
         <div className="projects__header">
           <h2>Projects</h2>
-          <a href="mailto:marwankn@gmail.com.com" className="projects__button">
+          <a href="mailto:marwankn@gmail.com" className="projects__button">
             Contact Me
           </a>
         </div>
