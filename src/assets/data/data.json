@@ -12,7 +12,7 @@
     },
     {
       "name": "Resume",
-      "link": "https://drive.google.com/file/d/1a_UxFxa3A9H5iiYtNzA0mRTdbEG8uqZw/view?usp=sharing",
+      "link": "https://drive.google.com/file/d/1Owc5iD9ERbesSP3uNQqGDev3MmSYRdLL/view?usp=sharing",
       "icon": "/assets/images/icons/social/icon-resume.svg"
     }
   ],
@@ -63,7 +63,7 @@
     {
       "name": "BloodLink",
       "image": "/assets/images/projects/bloodlink.webp",
-      "url": "https://6549ab04af733b0008fa3683--sensational-rabanadas-f2d047.netlify.app/",
+      "url": "https://bloodlink.marwannofal.com/",
       "githubLink": "https://github.com/marwankn/BloodLink-Client/tree/main",
       "tech": ["React", "Sass", "NodeJs", "Express", "MySQL", "GoogleMaps API"]
     }
