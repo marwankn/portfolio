@@ -32,5 +32,9 @@
 
   &__button {
     @extend .button;
+    display: none;
+    @include tablet {
+      display: block;
+    }
   }
 }
