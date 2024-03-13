@@ -4,9 +4,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
-import ReactGA from "react-ga";
 import { getUserLocation, writeUserLocation } from "./utils/userLocation.jsx";
-ReactGA.initialize("G-XDXD5YD854");
 
 function App() {
   const [colorMode, setColorMode] = useState(
@@ -24,14 +22,12 @@ function App() {
       document.body.classList.add("body--light");
     }
   }, [colorMode]);
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+
   useEffect(() => {
     try {
       const response = async () => {
         const getUserLocationData = await getUserLocation();
-        console.log(getUserLocationData);
+        getUserLocationData.data.date = new Date().toLocaleString();
         const writeUserLocationData = await writeUserLocation(
           getUserLocationData.data
         );
